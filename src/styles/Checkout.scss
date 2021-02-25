@@ -1,0 +1,292 @@
+@import './_variables';
+
+.checkout-new-header{
+    background-color: $menu_header_background;
+}
+
+.checkout-page {
+    margin-right: 4vw;
+    margin-left: 5vw;
+    padding-top: 7vw;
+
+    .checkout-paging {
+        font-family: "Nunito";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.05em;
+        text-decoration-line: underline;
+        color: #263238;
+    }
+
+    .billing-heading {
+        font-family: "Nunito";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 41px;
+        letter-spacing: 0.05em;
+        color: #000000;
+    }
+
+    .billing-details {
+        .feild-name {
+            font-family: "Nunito";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 10px;
+            letter-spacing: 0.05em;
+            color: #000000;
+        }
+
+        .input-details {
+            input {
+                background: #F6F6F6;
+                border: 1px solid #C9C9C9;
+                box-sizing: border-box;
+                border-radius: 5px;
+                width: 100%;
+                height: 55px;
+                outline: none;
+            }
+        }
+    }
+
+    .payment {
+        .payment-heading {
+            margin-top: 20px;
+            font-family: "Nunito";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 25px;
+            line-height: 41px;
+            letter-spacing: 0.05em;
+            color: #000000;
+        }
+
+        .cardit-card {
+            background: #F6F6F6;
+            border: 1px solid #C9C9C9;
+            box-sizing: border-box;
+            border-radius: 5px;
+            height: 50px;
+            width: 70%;
+
+            .cardit-card-text {
+                margin-top: 20px;
+                font-family: "Nunito";
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 25px;
+                letter-spacing: 0.05em;
+                color: #000000;
+            }
+        }
+
+        .cardit-box {
+            background: #F6F6F6;
+            border: 1px solid #C9C9C9;
+            box-sizing: border-box;
+            border-radius: 5px;
+
+            .cardit-header {
+                border-bottom: 1px dashed #000000;
+
+                .carder-header-text {
+                    margin-top: 20px;
+                    font-family: "Nunito";
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 25px;
+                    letter-spacing: 0.05em;
+                    color: #000000;
+                }
+
+                .secure-server {
+                    margin-top: 20px;
+                    font-family: "Nunito";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 25px;
+                    letter-spacing: 0.05em;
+                    color: #343434
+                }
+
+                img {
+                    padding-right: 10px;
+                }
+            }
+
+            .card-feild-inbox {
+                input {
+                    background: #FFFFFF;
+                    border: 1px solid #C9C9C9;
+                    box-sizing: border-box;
+                    border-radius: 5px;
+                    width: 100%;
+                    height: 55px;
+                    outline: none;
+
+                    ::placeholder {
+                        font-family: Nunito;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 22px;
+                        letter-spacing: 0.05em;
+                        color: #535353;
+                    }
+                }
+            }
+
+            .card-field-name {
+                padding-top: 15px;
+                font-family: "Nunito";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 10px;
+                letter-spacing: 0.05em;
+                color: #000000;
+
+                span {
+                    color: $logo_text;
+                }
+            }
+
+            .save-cradit-information {
+                padding-top: 3px;
+                font-family: "Nunito";
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 7px;
+                letter-spacing: 0.05em;
+                color: #3E3E3E;
+            }
+
+            .future-checkout {
+                font-family: "Nunito";
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 10px;
+                letter-spacing: 0.05em;
+                color: #C9C9C9
+            }
+        }
+    }
+
+    .checkout-button {
+        margin-top: 4rem;
+        margin-bottom: 7rem;
+
+        button {
+            background: #E1BE57;
+            box-shadow: 0px 10px 20px rgba(225, 190, 87, 0.2);
+            border-radius: 50px;
+            border: none;
+            font-family: "Nunito";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 25px;
+            color: #FFFFFF;
+            line-height: 22px;
+            letter-spacing: 0.05em;
+            // color: #000000;
+            padding: 18px 60px;
+        }
+    }
+
+    .choose-plan-card {
+        background: #F3F3F3;
+        margin-top: 27px;
+        height: 150px;
+
+        .plan-type {
+            .plan-type-text {
+                font-family: "Rubik";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 19px;
+                letter-spacing: 0.01em;
+                color: #000000;
+                text-align: center;
+                padding-top: 10px;
+            }
+
+            button {
+                background: #E1BE57;
+                border-radius: 50px;
+                border: none;
+                margin-left: 10px;
+                font-family: "Rubik";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 13px;
+                line-height: 17px;
+                letter-spacing: 0.01em;
+                color: #000000;
+                padding: 5px 20px;
+
+                ::placeholder {
+                    font-family: "Nunito";
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 5px;
+                    line-height: 22px;
+                    letter-spacing: 0.05em;
+                    color: #535353;
+                }
+
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .checkout-page {
+        .payment {
+            .payment-heading {
+                margin-top: 20px;
+                font-family: "Nunito";
+                font-style: normal;
+                font-weight: bold;
+                font-size: 25px;
+                line-height: 41px;
+                letter-spacing: 0.05em;
+                color: #000000;
+            }
+
+            .cardit-card {
+                background: #F6F6F6;
+                border: 1px solid #C9C9C9;
+                box-sizing: border-box;
+                border-radius: 5px;
+                height: 50px;
+                width: 100%;
+
+                .cardit-card-text {
+                    margin-top: 20px;
+                    font-family: "Nunito";
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 25px;
+                    letter-spacing: 0.05em;
+                    color: #000000;
+                }
+            }
+        }
+
+        .cardit-box {
+            .save-cradit-information {
+                line-height: 14px !important;
+            }
+        }
+
+    }
+}

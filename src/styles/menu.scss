@@ -1,0 +1,521 @@
+@import "./_variables";
+
+.menu-header {
+  background-color: $menu_header_background;
+
+  .navbar {
+    display: flex !important;
+    justify-content: space-between;
+    margin-right: 3vw;
+    margin-left: 8vw;
+    padding-top: 1vw;
+
+    p {
+      padding-left: 5px;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+      letter-spacing: 0.1em;
+      color: rgba(230, 190, 62, 0.64);
+    }
+
+    .navbar-toggler {
+      border: none;
+
+      .navbar-toggler-icon {
+        background-color: none;
+      }
+    }
+  }
+
+  .nav-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: $nav-item !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .sign-up {
+    background-color: $nav-item;
+    color: $sign-up-background;
+    border-radius: 50px;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 11px 27px;
+  }
+
+  .menu-header {
+    .menu-text {
+      font-family: "Nunito";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 50px;
+      line-height: 68px;
+      letter-spacing: 0.05em;
+      color: $sign-up-background;
+    }
+
+    .menu-path {
+      font-family: "Nunito";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 22px;
+      letter-spacing: 0.05em;
+      text-decoration-line: underline;
+      color: $menu_header_path_text;
+      padding-bottom: 3rem;
+    }
+  }
+}
+
+.menu-list-container {
+  .sidebar {
+    height: 100%;
+    width: 38vw;
+    background: $nav-item;
+
+    .sidebar-container {
+      margin-left: 30px;
+      margin-top: 86px;
+
+      .side-nav {
+        list-style: none;
+        margin: 20px 0;
+        padding: 0;
+        text-align: center;
+
+        a {
+          text-decoration: none;
+
+          &.active {
+            li {
+              background: white;
+              border-radius: 30px 0 0 30px;
+              cursor: pointer;
+
+              span {
+                color: red;
+              }
+            }
+          }
+
+          a {
+            li {
+              padding: 20px 15px;
+              margin-bottom: 5px;
+              cursor: pointer;
+
+              display: flex;
+              align-items: center;
+
+              .custom-icon {
+                margin-right: 12px;
+                margin-left: 12px;
+              }
+
+              span {
+                font-size: 17px;
+                color: red;
+                font-family: "Poppins";
+                font-weight: 300;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .menu-list {
+    width: calc(100% - 38vw);
+    float: right;
+    margin-top: 38px;
+
+    .menu-list-item-heading {
+      font-family: "Nunito";
+      font-weight: 600;
+      font-size: 23px;
+      line-height: 33px;
+      color: $sign-up-text;
+      margin-left: 1rem;
+    }
+
+    .menu-list-items {
+      background-color: $nav-item;
+
+      // width: 60%;
+      .menu-list-heading {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: capitalize;
+        color: $sign-up-text;
+      }
+
+      .menu-item-card-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        cursor: pointer;
+
+        .menu-item-card-active {
+          width: 24vw;
+          height: auto;
+          background: $dish_card_background;
+          border: 1.00356px solid $login_btn_bg;
+          box-sizing: border-box;
+          border-radius: 5.01779px;
+          display: flex;
+          flex-direction: column;
+
+          .item-card-header {
+            margin-left: 20px;
+
+            .item-name {
+              font-family: "Montserrat";
+              font-weight: bold;
+              font-size: 18px;
+              letter-spacing: 0.05em;
+              text-transform: capitalize;
+              color: $meal_feature_heading;
+              padding-top: 20px;
+            }
+
+            .chef-name {
+              font-family: "Nunito";
+              font-style: italic;
+              font-weight: normal;
+              font-size: 10px;
+              line-height: 5px;
+              letter-spacing: 0.05em;
+              text-transform: capitalize;
+              color: $sign-up-text;
+            }
+          }
+
+          .item-desc {
+            margin-left: 20px;
+            font-family: "Nunito";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 20px;
+            letter-spacing: 0.05em;
+            text-transform: capitalize;
+            color: $meal_feature_heading;
+          }
+        }
+
+        .menu-item-card {
+          width: 24vw;
+          height: auto;
+          background: $dish_card_background;
+          border: 1.00356px solid $dish_card_border;
+          box-sizing: border-box;
+          border-radius: 5.01779px;
+          display: flex;
+          flex-direction: column;
+
+          .item-card-header {
+            margin-left: 20px;
+
+            .item-name {
+              font-family: "Montserrat";
+              font-weight: bold;
+              font-size: 18px;
+              letter-spacing: 0.05em;
+              text-transform: capitalize;
+              color: $meal_feature_heading;
+              padding-top: 20px;
+            }
+
+            .chef-name {
+              font-family: "Nunito";
+              font-style: italic;
+              font-weight: normal;
+              font-size: 10px;
+              line-height: 5px;
+              letter-spacing: 0.05em;
+              text-transform: capitalize;
+              color: $sign-up-text;
+            }
+          }
+
+          .item-desc {
+            margin-left: 20px;
+            font-family: "Nunito";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 20px;
+            letter-spacing: 0.05em;
+            text-transform: capitalize;
+            color: $meal_feature_heading;
+          }
+        }
+      }
+    }
+
+    .paggination-row {
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+
+      button {
+        align-items: flex-start;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: 15px;
+        background: $sign-up-background;
+        border-radius: 50px;
+        border: none;
+        color: $menu_pagination_button;
+        font-family: "Nunito";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        outline: none;
+
+      }
+
+      span {
+        font-family: "Nunito";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.menu-list-mabile-container {
+  .menu-mobile-layout {
+    .saturday-menu {
+      .menu-day {
+        font-family: "Nunito";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 27px;
+        letter-spacing: 0.05em;
+        color: $sign-up-background;
+      }
+
+      .menu-date {
+        font-family: "Nunito";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.05em;
+        color: $menu_day_text;
+      }
+
+      .select-day {
+        font-family: "Nunito";
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.05em;
+        color: #263238;
+      }
+
+      .breakefast-menu {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.05em;
+        color: $sign-up-text;
+      }
+
+      .day-list {
+        z-index: 1;
+        position: absolute;
+        width: 133px;
+        height: auto;
+        right: 14px;
+        top: 365px;
+        background: $nav-item;
+        filter: drop-shadow(-4px 4px 20px rgba(0, 0, 0, 0.25));
+
+        p {
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-left: 10px;
+          font-family: "Nunito";
+          font-weight: normal;
+          font-size: 15px;
+          line-height: 20px;
+          letter-spacing: 0.05em;
+          color: $day_list_text;
+          text-align: flex-start;
+          border-bottom: 1px solid rgba(224, 224, 224, 0.26);
+          ;
+        }
+
+      }
+
+      .breakefast-dish {
+        display: flex;
+
+        .dish-card-active{
+          width: 175px;
+          height: auto;
+          background: $dish_card_background;
+          border: 0.622807px solid $login_link;
+          box-sizing: border-box;
+          border-radius: 3.11404px;
+
+          img {
+            width: 100%;
+          }
+
+          .dish-card-heading {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14.4344px;
+            line-height: 18px;
+            letter-spacing: 0.05em;
+            color: $menu_day_text;
+            padding-top: 15px;
+          }
+
+          .dish-card-desc {
+            font-family: "Nunito";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10.8258px;
+            line-height: 15px;
+            letter-spacing: 0.05em;
+            text-transform: capitalize;
+            color: $menu_day_text;
+          }
+        }
+
+        .dish-card {
+          width: 175px;
+          height: auto;
+          background: $dish_card_background;
+          border: 0.622807px solid $dish_card_border;
+          box-sizing: border-box;
+          border-radius: 3.11404px;
+
+          img {
+            width: 100%;
+          }
+
+          .dish-card-heading {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14.4344px;
+            line-height: 18px;
+            letter-spacing: 0.05em;
+            color: $menu_day_text;
+            padding-top: 15px;
+          }
+
+          .dish-card-desc {
+            font-family: "Nunito";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10.8258px;
+            line-height: 15px;
+            letter-spacing: 0.05em;
+            text-transform: capitalize;
+            color: $menu_day_text;
+          }
+        }
+      }
+
+      button {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 30px;
+        padding-left: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: $menu_pagination_button;
+        border-radius: 50px;
+        border: none;
+        font-family: "Nunito";
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 0.05em;
+        color: $more_item_button;
+        outline: none;
+      }
+    }
+
+    .paggination-row {
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+
+      button {
+        align-items: flex-start;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: 15px;
+        background: $sign-up-background;
+        border-radius: 50px;
+        border: none;
+        color: $menu_pagination_button;
+        font-family: "Nunito";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        outline: none;
+      }
+
+      .previous-button {
+        padding-top: 10px;
+
+        span {
+          font-family: "Nunito";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 22px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width : 500px) {
+  .menu-list-container {
+    display: none;
+  }
+}
+
+@media only screen and (min-width : 501px) {
+  .menu-list-mabile-container {
+    display: none;
+  }
+}

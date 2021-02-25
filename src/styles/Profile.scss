@@ -1,0 +1,138 @@
+@import './_variables';
+
+nav {
+    // background-color: $menu_header_background !important;
+    margin-right: 4rem;
+    margin-left: 4rem;
+
+    .navbar {
+        display: flex !important;
+        justify-content: space-between;
+        margin-right: 3vw;
+        margin-left: 7vw;
+        padding-top: 1vw;
+    }
+
+    p {
+        padding-left: 5px;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.1em;
+        color: rgba(230, 190, 62, 0.64);
+    }
+
+    .navbar-nav {
+        a {
+            font-family: "Nunito" !important;
+            font-style: normal !important;
+            font-weight: 600 !important;
+            font-size: 16px !important;
+            line-height: 22px !important;
+            color: #FFFFFF !important;
+        }
+    }
+}
+
+.user-details {
+    margin-left: 5rem;
+    margin-right: 5rem;
+
+    .about-user {
+        background-color: $more_item_button;
+        border-radius: 10px;
+
+        .user-profile-details {
+            .user-name {}
+
+            .social-media {}
+
+            .edit-profile {
+                background: #F5F5F5;
+                border-radius: 5px;
+                border: 1px solid #000000;
+                padding: 5px 13px;
+
+                font-family: "Nunito";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 22px;
+                color: #000000;
+                flex: none;
+                order: 0;
+                align-self: center;
+                flex-grow: 0;
+                margin: 10px 0px;
+            }
+        }
+
+    }
+
+    .subsciption {
+        .subsciption-heading {
+            font-family: "Nunito";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 25px;
+            line-height: 0px;
+            color: #303030;
+        }
+
+        .active-plan {
+            font-family: "Nunito";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 30px;
+            color: #303030;
+        }
+        .questionnaires-details{
+            // height: 120px;
+            // left: 120px;
+            // width: 50%;
+            // top: 652px;
+            border: 3px dashed #DDDDDD;
+            box-sizing: border-box; 
+            .choices-list{
+                color: $logo_text;
+            }
+        }
+
+        .row {
+            .subscription-box {
+                height: 517px;
+                left: 120px;
+                top: 652px;
+                border: 3px dashed #DDDDDD;
+                box-sizing: border-box;
+
+                .active-plan-text {
+                    position: absolute;
+                    top: 50%;
+                    left: 23%;
+                    font-family: "Nunito";
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 27px;
+                    letter-spacing: 0.05em;
+                    color: #9A9A9A;
+                }
+
+            }
+        }
+
+    }
+}
+
+.space {
+    height: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+    .user-details {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}

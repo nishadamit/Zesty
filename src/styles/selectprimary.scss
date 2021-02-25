@@ -1,0 +1,281 @@
+@import "./_variables";
+
+.container-sp {
+    padding: 0% 6%;
+
+
+}
+
+.orderContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 650px;
+    justify-content: space-between;
+}
+
+.top-sp {
+    padding-top: 1%;
+    padding-bottom: 10%;
+}
+
+.back-sp {
+    float: left;
+    font-size: 20px;
+}
+
+.back-close {
+    padding: 30px 80px
+}
+
+.question-header {
+    padding: 30px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.left-f1 {
+    padding-top: 4px;
+    float: left;
+    cursor: pointer;
+}
+
+.left-f {
+    padding-top: 1px;
+    float: left;
+    cursor: pointer;
+}
+
+
+.right-f {
+    float: right;
+    cursor: pointer;
+    outline: none;
+
+    button:active {
+        outline: none;
+        border: none;
+    }
+
+    button:focus {
+        outline: 0;
+    }
+}
+
+.clear {
+    clear: both;
+}
+
+.next-btn {
+    background-color: $sign-up-background;
+    border: none;
+    border-radius: 18px;
+    padding: 7px 13px 7px 13px;
+    color: $nav-item;
+    outline: none;
+}
+
+.close-sp {
+    float: right;
+    font-size: 20px;
+
+}
+
+.row-abs {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.cols {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+
+    .hr {
+        border-top: 1px solid $logo_text;
+    }
+}
+
+.backline-in {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.border-abs {
+    border: 2px solid red;
+}
+
+.circle-abs {
+    border: 2px solid $cuisines_circle_border;
+    padding: 2px;
+    border-radius: 50%;
+}
+
+.yellow-im-c {
+    width: 25px;
+    padding-left: 1px;
+}
+
+.line1 {
+    position: absolute;
+    padding-top: 4%;
+    text-align: center;
+}
+
+
+.centers img {
+    padding-top: 7px;
+}
+
+.select-y {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 0px;
+    color: $menu_pagination_button;
+    padding-top: 6%;
+}
+
+.cuisines-text {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 35px;
+    color: $menu_pagination_button;
+    margin-bottom: 35px;
+}
+
+.north-i {
+    white-space: nowrap;
+    width: 100%;
+    height: 95%;
+    color: $nav-item;
+    border-radius: 50%;
+    border: 3px solid $cuisines_circle_border_active;
+    cursor: pointer;
+}
+
+.north-active {
+    white-space: nowrap;
+    width: 100%;
+    height: 95%;
+    color: $nav-item;
+    border-radius: 50%;
+    border: 3px solid $sign-up-background;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.north1 {
+    background-image: url('../assests/Rectangle\ 8.png');
+    // background-size: cover;
+    background-position: center;
+}
+
+.north2 {
+    background-image: url('../assests/Rectangle\ 9.png');
+    background-position: center;
+}
+
+.north3 {
+    background-image: url('../assests/Rectangle\ 11.png');
+    background-position: center;
+}
+
+.north4 {
+    background-image: url('../assests/Rectangle\ 10.png');
+    background-position: center;
+}
+
+.north-txt {
+    font-size: 25px;
+    padding-top: 43%;
+    padding-bottom: 43%;
+    text-align: center;
+}
+
+.bottom-sp {
+    padding-top: 4%;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .back-close {
+        padding: 30px 10px;
+
+    }
+
+    .question-header {
+        padding: 30px 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .row-abs {
+        margin-top: 20px !important;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .select-y {
+        font-size: 20px;
+        padding-top: 12%;
+        line-height: 25px !important;
+    }
+
+    .cuisines-text {
+
+        line-height: 25px !important;
+    }
+
+    .north-txt {
+        font-size: 16px !important;
+    }
+
+    .close-sp {
+        font-size: 14px;
+        display: inline-block;
+        margin-left: 75%;
+    }
+
+    .north-i {
+        height: 90% !important;
+    }
+
+    .north-active {
+        height: 90%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+
+    .back-close {
+        padding: 30px 10px
+    }
+
+    .question-header {
+        padding: 30px 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .north-txt {
+        font-size: 21px;
+    }
+
+    .close-sp {
+        font-size: 14px;
+        display: inline-block;
+        margin-left: 70%;
+    }
+
+    .next-sp {
+        font-size: 14px;
+        display: inline-block;
+        padding-left: 70%;
+    }
+}

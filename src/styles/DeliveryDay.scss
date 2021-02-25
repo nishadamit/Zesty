@@ -1,0 +1,31 @@
+@import "./_variables";
+
+.dayActive {
+    background-color: $sign-up-background !important;
+    margin: 3% 2% !important;
+    padding: 2% !important;
+    color: $sign-up-text !important;
+    box-sizing: none;
+}
+
+.day {
+    padding: 2% 2% !important;
+    margin: 2% !important;
+    color: $feature_text !important;
+    border-color: $menu_header_path_text !important;
+    outline: none !important;
+    box-sizing: none !important;
+
+}
+
+@media only screen and (max-width: 650px) {
+
+    .options-day {
+        text-align: center;
+        margin-top: 20px;
+        .dayActive {
+            width: 40%;
+        }
+    }
+
+}

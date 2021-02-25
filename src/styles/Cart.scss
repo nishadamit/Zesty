@@ -1,0 +1,265 @@
+@import "./_variables";
+
+.cart-header {
+    background-color: black;
+
+    .navbar {
+        display: flex !important;
+        justify-content: space-between;
+        margin-right: 3vw;
+        margin-left: 4vw;
+        padding-top: 1vw;
+
+        p {
+            padding-left: 5px;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 0.1em;
+            color: rgba(230, 190, 62, 0.64);
+        }
+
+        .navbar-toggler {
+            border: none;
+
+            .navbar-toggler-icon {
+                background-color: none;
+            }
+        }
+    }
+
+    .nav-text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: $nav-item !important;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+}
+
+.cart-items {
+    margin-right: 4vw;
+    margin-left: 5vw;
+    padding-top: 8vw;
+
+    .cart-heading {
+        font-family: "Rubik";
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 41px;
+        color: #000000;
+
+        span {
+            padding-left: 10px;
+            font-family: "Rubik";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 21px;
+            letter-spacing: 0.1em;
+            color: #E1BE57
+        }
+    }
+
+    .product-card {
+        background: #F3F3F3;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
+
+        .items-details {
+
+            .items-name {
+                font-family: "Rubik";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 0px;
+                letter-spacing: 0.01em;
+                color: #000000;
+
+            }
+
+            .item-type {
+                font-family: "Rubik";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 18px;
+                color: #A5A5A5;
+            }
+        }
+
+        .item-count {
+            .item-qty {
+                font-family: "Rubik";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 18px;
+                color: #A5A5A5;
+                padding-top: 18px;
+                padding-right: 10px;
+            }
+
+            select {
+                border: 1px solid #E1BE57;
+                box-sizing: border-box;
+                border-radius: 5px;
+                padding: 3px 10px;
+                background: #F3F3F3;
+
+                box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
+                font-family: "Rubik";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 14px;
+                color: #000000;
+                outline: none;
+            }
+        }
+
+        .item-discard {
+            position: relative;
+            .cross {
+                position: absolute;
+                top: 46px;
+                right: 7px;
+            }
+        }
+
+    }
+
+    .active-plan-card {
+        background: #F3F3F3;
+
+        .plan-type {
+            .plan-type-text {
+                font-family: "Rubik";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 19px;
+                letter-spacing: 0.01em;
+                color: #000000;
+                text-align: center;
+                padding-top: 10px;
+            }
+
+            button {
+                background: #E1BE57;
+                border-radius: 50px;
+                border: none;
+                margin-left: 10px;
+                font-family: "Rubik";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 13px;
+                line-height: 17px;
+                letter-spacing: 0.01em;
+                color: #000000;
+                padding: 5px 20px;
+            }
+        }
+
+        .day-left {
+            margin-top: 10px;
+
+            .day-left-text {
+                font-family: "Rubik";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 24px;
+                letter-spacing: 0.01em;
+                color: #000000;
+            }
+
+            .day-time {
+                padding-left: 10px;
+                font-family: "Rubik";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 24px;
+                letter-spacing: 0.01em;
+
+                color: #000000;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .cart-items {
+        margin-right: 4vw;
+        margin-left: 5vw;
+        padding-top: 8vw;
+    
+        .cart-heading {
+            font-family: "Rubik";
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 41px;
+            color: #000000;
+    
+            span {
+                padding-left: 10px;
+                font-family: "Rubik";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 21px;
+                letter-spacing: 0.1em;
+                color: #E1BE57
+            }
+        }
+    
+        .product-card {
+            background: #F3F3F3;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
+            .items-details {   
+                .items-name {
+                    font-family: "Rubik";
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 15px;
+                    line-height: 14px;
+                    letter-spacing: 0.01em;
+                    color: #000000;
+    
+                }
+    
+                .item-type {
+                    font-family: "Rubik";
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 12px !important;
+                    line-height: 11px !important;
+                    color: #A5A5A5;
+                }
+            }
+    
+            .item-count {
+                select {
+                  margin-bottom: 10px;
+                }
+            }
+    
+            .item-discard {
+                position: relative;
+
+                .cross {
+                    position: absolute;
+                    top: 47px;
+                    right: 6px;
+                }
+            }
+    
+        }
+    
+       
+    }
+}

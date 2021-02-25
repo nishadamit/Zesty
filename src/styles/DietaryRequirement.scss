@@ -1,0 +1,152 @@
+@import './_variables';
+
+.dietaryquestion {
+    padding-left: 8%;
+    padding-top: 2%;
+
+    .dietaryquestion1 {
+        font-family: "Montserrat";
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 37px;
+        color: $menu_pagination_button;
+    }
+
+    .dietary-text {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        color: $menu_pagination_button;
+    }
+
+    .vegetarian-active {
+        border: 1px solid $sign-up-background;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-right: 40px;
+        margin-bottom: 20px;
+        font-family: "Nunito";
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 34px;
+        width: 13rem;
+        height: 12vw;
+        box-shadow: none !important;
+    }
+
+    .vegetarian {
+        border-color: $footer_sub_heading;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-right: 40px;
+        margin-bottom: 20px;
+        font-family: "Nunito";
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 34px;
+        width: 13rem;
+        height: 12vw;
+        box-shadow: none !important;
+    }
+}
+
+.nextdiet {
+    background-color: $sign-up-background !important;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    border-radius: 20px !important;
+}
+
+.row-abs1 {
+    margin-top: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.cols1 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.backline-in {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.border-abs1 {
+    border: 2px solid red;
+}
+
+.circle-abs1 {
+    border: 2px solid $cuisines_circle_border;
+    padding: 2px;
+    border-radius: 50%;
+}
+
+.yellow-im-c {
+    width: 25px;
+    padding-left: 1px;
+}
+
+.line1 {
+    position: absolute;
+    padding-top: 4%;
+    text-align: center;
+}
+
+.centers1 img {
+    padding-top: 2px;
+}
+
+@media only screen and (max-width: 650px) {
+    .dietaryquestion1 {
+        text-align: center;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600 !important;
+        font-size: 20px !important;
+        line-height: 24px !important;
+        color: #263238 !important;
+    }
+
+    .dietary-text {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        text-align: center !important;
+        line-height: 25px;
+        color: $menu_pagination_button;
+    }
+
+    .dietaryquestion {
+        padding-left: 2% !important;
+        padding-top: 3rem !important;
+    }
+
+    .options {
+        flex-direction: column;
+        text-align: center;
+
+        .vegetarian {
+            width: 100%;
+            padding: 14.5% 1.5% !important;
+            font-size: 20px !important;
+            height: 37vw;
+        }
+
+        .vegetarian-active {
+            width: 100%;
+            padding: 14.5% 1.5% !important;
+            font-size: 20px !important;
+            height: 37vw;
+        }
+    }
+
+    .day {
+        width: 40%;
+    }
+}

@@ -1,0 +1,77 @@
+@import "./_variables";
+
+.container-sp36 {
+    padding: 0% 6%;
+}
+
+.top-sp36 {
+    padding-top: 1%;
+    padding-bottom: 12%;
+}
+
+.back-sp36 {
+    float: left;
+    font-size: 20px;
+}
+
+.close-sp36 {
+    float: right;
+    font-size: 20px;
+}
+
+.select-y36 {
+    font-size: 25px;
+    padding-top: 4%;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    line-height: 37px;
+
+    color: #263238
+}
+
+.algergies-hover {
+
+    .allergy-con {
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        text-align: center;
+        padding: 22% 10% 14% 10%;
+        margin-bottom: 15%;
+        cursor: pointer;
+
+        .allergy-itm {
+            font-family: "Nunito";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 34px;
+            color: #000000;
+        }
+    }
+
+    .allergy-con-active {
+        border: 1px solid $sign-up-background;
+        border-radius: 10px;
+        text-align: center;
+        padding: 22% 10% 14% 10%;
+        margin-bottom: 15%;
+        cursor: pointer;
+
+        .allergy-itm {
+            font-family: "Nunito";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 34px;
+            color: #000000;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .select-y36 {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+}

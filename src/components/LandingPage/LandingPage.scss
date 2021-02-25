@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+.top-header {
+    height: 80px;
+    width: 100%;
+}
+
+.main-header {
+    height: 600px;
+    width: 100%;
+    background-image: url('/img/header-background.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.title-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -100px;
+}
+
+.title {
+    font-family: 'Nunito';
+    font-weight: 900;
+    color:#E6BE3E;
+    font-size: 50px;
+}
+
+.sub-title {
+    font-family: 'Nunito';
+    font-weight: normal;
+    color: white;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.email-form {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    height: 35px;
+    padding: 15px;
+    width: 500px;
+    font-family: 'Nunito';
+    font-size: 20px;
+    overflow: hidden;
+
+}
+
+.email-form-button {
+    border-radius: 50px;
+    background-color: #E6BE3E;
+    color: white;
+    outline: none;
+    border: none;
+    height: 40px;
+    padding-left: 35px;
+    padding-right: 35px;
+    float: right;
+    margin-top: -4px;
+
+}
+
+.email-input {
+    float: left; 
+    outline: none; 
+    border:none; 
+    background: rgba(255, 255, 255, 0%);
+    margin-top: 7px;
+    font-size: 18px;
+}
+
+.email-input::placeholder {
+    color: #4f4f4f;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.top-right-header {
+    float: right;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.magic-section-wrapper {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.magic-title {
+    font-family: 'Nunito';
+    font-size: 35px;
+    font-weight: 700;
+    width: 100%;
+}
+
+.save-section-wrapper {
+    padding: 50px 60px 50px;
+}
+
+.save-para {
+    display: flex; 
+    flex-direction: row;
+}
+
+.idea-para {
+    display: flex; 
+    flex-direction: row;
+}
+
+.idea-img {
+    text-align: center; 
+    padding-right: 30px;
+}
+
+.sub-footer {
+    background-color: #363636;
+    padding: 100px 50px 80px ;
+}
+
+.sub-footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-family: 'Nunito';
+    font-weight: 900;
+    color:#E6BE3E;
+    font-size: 35px;
+}
+
+@media(max-width : 1024px) {
+    .save-para {
+        display: block;
+    }
+    .idea-para {
+        flex-direction: column-reverse;
+    }
+
+    .idea-img {
+        padding-right: 0;
+    }
+    .magic-title {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .sub-footer-wrapper{
+        display: block;
+    }
+}
+
+@media(max-width : 596px) {
+    .email-form {
+        width: 400px;
+    }
+    .email-input {
+        width: 50%;
+    }
+    .title-wrapper {
+        margin-top: 0px;
+    }
+    .top-right-header {
+        display: none !important;
+    }
+    .title {
+        font-size: 30px;
+    }
+    .magic-title {
+        font-size: 24px;
+    }
+    .main-header {
+        height: 400px;
+    }
+    .save-section-wrapper {
+        padding: 50px 20px 50px;
+    }
+    .footer-title {
+        font-size: 26px;
+    }
+
+    .sub-footer {
+        padding: 50px 15px 50px;
+    }
+}
+
+@media(max-width: 496px) {
+    .email-form {
+        width: 280px;
+    }
+}

@@ -1,0 +1,155 @@
+@import "./_variables";
+
+.container-sp26 {
+    padding: 0% 6%;
+    margin-bottom: 8rem;
+}
+
+.select-y26 {
+    font-size: 26px;
+    padding-top: 4%;
+}
+
+.drop-con {
+    margin-bottom: 10%;
+}
+
+.drop-img {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.drop-btn {
+    background: #FFFFFF;
+    border: 2px solid #D2D2D2;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 140px;
+    width: 70%;
+    padding-top: 20px;
+
+    span {
+        padding-left: 10px;
+    }
+    .title-text{
+        cursor: pointer;
+    }
+}
+
+.drop-btn-active {
+    background: #FFFFFF;
+    border: 2px solid #E1BE57;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 140px;
+    width: 70%;
+    padding-top: 20px;
+
+    span {
+        padding-left: 10px;
+    }
+    .title-text{
+        cursor: pointer;
+    }
+}
+
+.select-time {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    position: absolute;
+    top: 142px;
+    width: 63%;
+    margin-bottom: 7rem !important;
+    z-index: 1;
+
+    .select-time-text {
+        font-family: "Nunito";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 15px;
+        letter-spacing: 0.04em;
+        color: #000000;
+    }
+
+    .show-time {
+        font-family: "Nunito";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 7px;
+        letter-spacing: 0.04em;
+        color: #000000;
+    }
+
+    .set-time {
+        border: 1px solid #D2D2D3;
+        box-sizing: border-box;
+        border-radius: 5px;
+        position: relative;
+        
+        
+        select{
+            border: none !important;
+            outline: none !important;
+            background-color: white !important;
+        }
+        // .clock-needle {
+        //     position: absolute;
+        //     left: 55px;
+        //     top: 22px;
+        // }
+
+        // .show-set-time {
+        //     padding-top: 13px;
+        //     font-family: "Nunito";
+        //     font-style: normal;
+        //     font-weight: 600;
+        //     font-size: 18px;
+        //     line-height: 25px;
+        //     text-transform: uppercase;
+        //     color: #000000;
+        // }
+        // .react-timerange-picker{
+        //     margin-right: 15px !important;
+        // }
+        // .react-timerange-picker__button{
+        //     display: none;
+        // }
+    }
+
+    .confirm-button {
+        button {
+            background: #E1BE57;
+            border-radius: 5px;
+            font-family: "Nunito";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 22px;
+            text-transform: capitalize;
+            border: none;
+            padding: 12px 36px;
+            color: #000000;
+            outline: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .select-y26 {
+        font-size: 16px;
+        margin-top: 10px !important 
+    }
+
+    .drop-con {
+        margin-bottom: 10%;
+        display: flex;
+        justify-content: center;
+    }
+    .select-time{
+        right: 62px !important;
+    }
+}

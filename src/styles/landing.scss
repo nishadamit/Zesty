@@ -1,0 +1,886 @@
+@import "./_variables";
+
+.header {
+  background-image: url(../assests/header_background.svg);
+  background-size: cover;
+
+  .navbar {
+    display: flex !important;
+    justify-content: space-between;
+    margin-right: 3vw;
+    margin-left: 4vw;
+    padding-top: 1vw;
+
+    p {
+      padding-left: 5px;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+      letter-spacing: 0.1em;
+      color: rgba(230, 190, 62, 0.64);
+    }
+
+    .navbar-toggler {
+      border: none;
+
+      .navbar-toggler-icon {
+        background-color: none;
+      }
+    }
+  }
+
+  .nav-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: $nav-item !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    padding-top: 17px !important;
+  }
+
+  .sign-up {
+    background-color: $nav-item;
+    color: $sign-up-background;
+    border-radius: 50px;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 11px 27px;
+  }
+
+  .landing-header {
+    margin-top: 100px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-bottom: 120px;
+
+
+    .landing-heading {
+      font-family: "Rubik";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 39px;
+      line-height: 35px;
+      color: $nav-item;
+
+      span {
+        color: $sign-up-background;
+      }
+    }
+
+    .landing-desc-heading {
+      font-family: "Nunito";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 8px;
+      letter-spacing: 0.04em;
+      color: $nav-item;
+    }
+
+    .landing-desc {
+      font-family: "Nunito";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 8px;
+      letter-spacing: 0.04em;
+      color: $nav-item;
+    }
+
+    .span {
+      color: $sign-up-background;
+    }
+
+  }
+
+  .Join-now {
+    border-radius: 50px !important;
+    background-color: $nav-item;
+    border: none;
+    outline: none;
+    width: 180px;
+    height: 50px;
+    font-family: "Nunito";
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    color: $meal_feature_heading;
+    margin-top: 25px;
+  }
+
+  .delivery-fee {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #F2F2F2;
+  }
+}
+
+.about-meals {
+  .meal-list-heading {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 55px;
+    letter-spacing: 0.04em;
+    color: $sign-up-text;
+    margin-top: 4rem;
+
+    span {
+      margin-left: 10px;
+
+      img {
+        vertical-align: bottom !important;
+      }
+    }
+  }
+
+  .meal-card-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-right: 0px !important;
+
+    .meal_list1 {
+      padding-left: 0px !important;
+    }
+
+    .meal_list2 {
+      padding-right: 0px !important;
+      display: flex;
+      align-content: center;
+    }
+
+    .meal-card {
+      width: 347px;
+      height: 331px;
+      margin-top: 10px;
+      background: $nav-item;
+      box-shadow: 0px 10px 20px rgba(199, 199, 199, 0.3);
+      border-radius: 20px;
+
+      .card-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        .card-heading {
+          color: $sign-up-background;
+          font-family: "Nunito";
+          font-style: normal;
+          font-weight: bold;
+          font-size: 25px;
+          line-height: 34px;
+          letter-spacing: 0.02em;
+          padding-top: 20px;
+        }
+
+        .card-desc {
+          color: $sign-up-text;
+          font-family: "Nunito";
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 25px;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .meal_feature {
+    .row1 {
+      margin-right: 22px !important;
+
+      .icon {
+        padding-left: 0px !important;
+      }
+    }
+
+    .row3 {
+      margin-right: 0px !important;
+
+      .meal_feature_heading1 {
+        font-family: "Rubik";
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 100.4%;
+        letter-spacing: 0.03em;
+        text-transform: capitalize;
+        color: $sign-up-text;
+        margin-bottom: 0.5rem !important;
+
+      }
+
+      .meal_feature_subheading {
+        font-family: "Rubik";
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 100.4%;
+        letter-spacing: 0.03em;
+        text-transform: capitalize;
+        color: $sign-up-text;
+      }
+
+      .meal_feature_text1 {
+        font-family: "Nunito";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        color: $sign-up-text;
+        margin-bottom: 0.5rem !important;
+        padding-right: 50px;
+      }
+
+      .zesty_img {
+        object-fit: fill;
+        width: 100% !important;
+        height: fit-content;
+      }
+
+    }
+
+    .row2 {
+      margin-right: 0px !important;
+
+      .icon {
+        padding-left: 0px !important;
+      }
+    }
+
+
+    margin-right: 0px !important;
+
+    .meal_feature_heading {
+      font-family: "Rubik";
+      font-weight: bold;
+      font-size: 35px;
+      line-height: 100.4%;
+      letter-spacing: 0.03em;
+      text-transform: capitalize;
+      color: $meal_feature_heading;
+      padding-left: 10px;
+    }
+
+
+    .meal_feature_para {
+      font-family: "Nunito";
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 25px;
+      letter-spacing: 0.02em;
+      color: $sign-up-text;
+      padding-left: 0px !important;
+    }
+
+    .meal_feature_text {
+      font-family: "Nunito";
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 25px;
+      letter-spacing: 0.02em;
+      color: $sign-up-text;
+      padding-left: 12px !important;
+    }
+
+    .button {
+      border: none;
+      border-radius: 50px;
+      background-color: $meal_feature_heading;
+      color: $nav-item;
+      font-size: 15px;
+      font-family: "Nunito";
+      padding: 10px 18px;
+      margin-top: 20px;
+      margin-left: 10px;
+      outline: none;
+    }
+  }
+}
+
+.customer-review-section {
+  background-color: $sign-up-background;
+  height: auto;
+
+  .customer-review-heading {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.03em;
+    color: $meal_feature_heading;
+    padding-top: 30px;
+  }
+
+  .carousel {
+    .carousel-control-prev {
+      justify-content: flex-end !important;
+      width: 13% !important;
+
+      img {
+        background-color: $nav-item;
+        border-radius: 50%;
+        padding: 6px 9px;
+      }
+    }
+
+    .carousel-control-next {
+      justify-content: flex-start !important;
+      width: 13% !important;
+
+      img {
+        background-color: $nav-item;
+        border-radius: 50%;
+        padding: 6px 9px;
+      }
+    }
+
+    .carousel-indicators {
+      display: none;
+    }
+
+    .carousel-inner {
+      .carousel-item {
+        margin-top: 400px;
+
+        .carousel-caption {
+          .customer-review-box {
+            position: relative;
+            background: $nav-item;
+            border: 1px solid $customer_review_box_border;
+            box-sizing: border-box;
+            box-shadow: 0px 15px 60px rgba(200, 200, 200, 0.25);
+            border-radius: 8px;
+
+            img {
+              position: absolute;
+              top: -10%;
+              left: 43%;
+            }
+
+            .customer-name {
+              font-family: "Rubik";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 18px;
+              line-height: 150%;
+              color: $customer_name;
+              padding-top: 85px;
+            }
+
+            .media-buyer {
+              font-family: "Rubik";
+              font-style: normal;
+              font-weight: normal;
+              font-size: 14px;
+              line-height: 150%;
+              color: $media_buyer;
+            }
+
+            .customer-review-desc {
+              font-family: "Rubik";
+              font-style: normal;
+              font-weight: normal;
+              font-size: 16px;
+              line-height: 160%;
+              color: $customer_name;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  background-color: $footer_background;
+  padding-top: 30px;
+
+  .footer-content {
+    margin-right: 0px !important;
+  }
+
+  .footer-logo-text {
+    font-size: 9.63303px;
+    line-height: 11px;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    color: rgba(58, 58, 58, 0.64);
+  }
+
+  ul {
+    list-style-type: none;
+
+    .footer-heading {
+      color: $sign-up-background;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 22px;
+      padding-bottom: 10px;
+    }
+
+    .footer-sub-heading {
+      font-size: 14px;
+      line-height: 19px;
+      color: $footer_sub_heading;
+      padding-top: 10px;
+    }
+  }
+
+  .footer-policy1 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    // text-align: left;
+    color: $footer_sub_heading;
+    padding-bottom: 10px;
+    padding-left: 35px;
+  }
+  .footer-policy2 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: right;
+    color: $footer_sub_heading;
+    padding-bottom: 10px;
+     padding-right: 20px;
+  }
+  .footer-mobile{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .mobile-dish {
+    display: none;
+  }
+
+  .worry-about-cooking {
+    display: none;
+  }
+
+  .daily-home {
+    display: none;
+  }
+
+  .daily-home-start {
+    display: none;
+  }
+
+  .header-content-head_mmobile {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 700px) {
+  .navbar {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }
+
+  .landing-header {
+    margin-top: 0px !important;
+    padding-bottom: 50px !important;
+
+    .heading-content {
+      margin-right: 0px !important;
+      margin-left: 0px !important;
+
+      .landing-heading {
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 33px;
+        line-height: 40px;
+        color: $nav-item;
+        margin-bottom: 0rem;
+      }
+
+      .landing-desc-heading {
+        font-family: "Nunito";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 3px;
+        letter-spacing: 0.04em;
+        color: $nav-item;
+      }
+
+      .landing-desc {
+        font-family: "Nunito";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 3px;
+        letter-spacing: 0.04em;
+        color: $nav-item;
+      }
+
+      .line {
+        line-height: 20px !important;
+      }
+
+      .span {
+        color: $sign-up-background;
+      }
+
+      .form-group {
+        position: relative;
+        display: flex;
+
+        .Join-now {
+          white-space: nowrap;
+        }
+
+        .address-input {
+          background-color: $nav-item;
+          border-radius: 50px;
+          border: none;
+          width: 65vw;
+          padding-top: 15px;
+          padding-bottom: 10px;
+          padding-left: 55px;
+          outline: none;
+        }
+
+        ::placeholder {
+          font-size: 14px;
+          line-height: 21px;
+          font-family: "Rubik";
+          color: $feature_text;
+          font-weight: 300;
+        }
+
+        .location_icon {
+          position: absolute;
+          left: 15px;
+          top: 14px;
+        }
+
+        .location_vector {
+          position: absolute;
+          left: 19px;
+          top: 18px;
+        }
+
+        .input_box_icon1 {
+          position: absolute;
+          right: 7px;
+          top: 5px;
+        }
+
+        .input_box_icon2 {
+          position: absolute;
+          right: 16px;
+          top: 17px;
+        }
+      }
+
+
+    }
+
+    .mobile-dish {
+      display: flex;
+      justify-content: space-between;
+
+      .Dish_2_mobile {
+        margin-bottom: 100px;
+      }
+    }
+
+    .landing-header-first-row {
+      margin-top: -23px !important;
+
+      .disc-2 {
+        display: none;
+      }
+
+      .disc-3 {
+        display: none;
+      }
+
+      .header-content {
+        .header-content-head {
+          display: none;
+        }
+
+        .header-content-head_mmobile {
+          font-size: 25px !important;
+          line-height: 34px !important;
+          text-align: center;
+          margin-left: 10px;
+          margin-right: 10px;
+          color: $nav-item;
+          font-family: Nunito;
+          font-style: normal;
+          font-weight: 800;
+
+          .autopilot {
+            color: $sign-up-background;
+          }
+        }
+
+        .header-para {
+          display: none;
+          margin-top: 0px !important;
+        }
+
+        .header-para-span {
+          display: none;
+        }
+
+        .delivery-fee {
+          font-size: 14px !important;
+          font-weight: 500;
+          padding-bottom: 0px !important;
+        }
+
+        .daily-home {
+          color: $nav-item;
+          font-family: "Nunito";
+          font-size: 16px;
+          line-height: 0px;
+          letter-spacing: 0.04em;
+          text-transform: capitalize;
+        }
+
+        .daily-home-start {
+          color: $sign-up-background;
+          font-family: "Nunito";
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 10px;
+          letter-spacing: 0.04em;
+          text-transform: capitalize;
+        }
+
+        .form-group {
+          .address-input {
+            width: 325px !important;
+          }
+        }
+
+        ::placeholder {
+          font-size: 14px !important;
+          line-height: 17px !important;
+        }
+
+        .location_icon {
+          left: 35px !important;
+          top: 13px !important;
+        }
+
+        .location_vector {
+          left: 39px !important;
+          top: 17px !important;
+        }
+
+        .input_box_icon1 {
+          right: 7px !important;
+          top: 7px;
+        }
+
+        .input_box_icon2 {
+          position: absolute;
+          right: 14px !important;
+          top: 14px;
+        }
+      }
+    }
+
+    .landing-header-second-row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between !important;
+
+      img {
+        width: 30%;
+      }
+
+      .Disc01 {
+        padding-top: 50px;
+      }
+
+      .Disc05 {
+        padding-bottom: 60px;
+      }
+    }
+  }
+
+  .about-meals {
+    .meal-list-heading {
+      font-family: "Nunito";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 21px;
+      line-height: 55px;
+      letter-spacing: 0.04em;
+      color: #000000;
+      margin-top: 2rem;
+
+      span {
+        img {
+          width: 8%;
+          padding-bottom: 10px;
+        }
+      }
+    }
+
+    .meal-card-list {
+      .meal_list1 {
+        display: none;
+
+        .create-menu {
+          display: none;
+        }
+      }
+
+      .meal_list2 {
+        display: none;
+
+        .create-menu {
+          display: none;
+        }
+      }
+
+      .meal-card {
+        margin-right: 0px !important;
+        margin-top: 10px;
+
+        .card-item {
+          .card-heading {}
+
+          .card-desc {}
+        }
+      }
+    }
+
+    .meal_feature {
+      .row1 {
+        .meal_desc {
+          display: none;
+        }
+
+        .icon {
+          padding-left: 5px !important;
+        }
+      }
+
+      .row2 {
+        flex-direction: column-reverse;
+
+        .home_meal_desc {
+          display: none;
+        }
+
+        .icon {
+          padding-left: 5px !important;
+        }
+      }
+
+      .meal_feature_heading {
+        text-align: start;
+        font-size: 25px !important;
+        padding-left: 15px !important;
+      }
+
+      .meal_feature_text {
+        text-align: start;
+        font-size: 16px !important;
+        color: $feature_text;
+        padding-left: 15px !important;
+      }
+
+      .row3 {
+        .col {
+          margin-top: 0px !important;
+        }
+
+        .meal_feature_heading1 {
+          margin-left: 1rem;
+        }
+
+        .meal_feature_subheading {
+          margin-left: 1rem;
+        }
+
+        .meal_feature_text1 {
+          margin-left: 1rem;
+          padding-right: 0px !important;
+        }
+      }
+
+
+      .button {
+        margin-bottom: 15px;
+        margin-left: 15px !important;
+        outline: none;
+      }
+    }
+  }
+
+  .check-plans {
+    display: none;
+  }
+
+
+  .customer-review-section {
+    background-color: $sign-up-background;
+    height: auto;
+
+    .customer-review-heading {
+     padding-left: 11px !important;
+    }
+
+    .carousel {
+
+      .carousel-inner {
+        .carousel-item {
+          margin-top: 665px !important;
+
+          .carousel-caption {
+            .customer-review-box {
+              img {
+                position: absolute;
+                top: -10%;
+                left: 32% !important;
+              }
+
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+  .footer-content {
+    .footer-policy2 {
+      text-align: center !important;
+    }
+    .footer-policy1 {
+      text-align: center !important;
+    }
+    .mob-col{
+      display: none;
+    }
+  }
+}
+

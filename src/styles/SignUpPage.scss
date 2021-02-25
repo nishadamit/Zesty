@@ -1,0 +1,249 @@
+@import "./_variables";
+
+.StartFillingYourBelly {
+  padding-top: 40px;
+  font-family: "Nunito";
+  font-weight: 599;
+  font-size: 20px;
+  text-align: center;
+
+  .hline {
+    height: 1px;
+    background: #c0c0c0;
+    margin-bottom: 10px;
+    width: 36%;
+    font-weight: bolder;
+  }
+
+  .required {
+    font-weight: 400;
+    font-size: 14px;
+
+    .star {
+      color: red;
+    }
+  }
+}
+
+.credential {
+  padding-top: 10px;
+  font-family: Nunito;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.signup-input {
+  width: 425px;
+  padding-top: 2%;
+  padding-bottom: 1.5%;
+  display: block;
+  margin: auto;
+  outline: none;
+  border: none;
+  border-bottom: 1.1px solid #c0c0c0;
+}
+
+.signup {
+  font-family: Nunito;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 100;
+  padding-top: 30px;
+
+  .signupbtn button {
+    margin-top: 10px !important;
+    color: $nav-item;
+    background: $sign-up-background;
+    width: 37%;
+    display: block;
+    margin: auto;
+    padding: 1%;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+  }
+
+  .alreadyHaveAnAccount {
+    padding-top: 30px;
+
+    .signInLink {
+      color: $logo_text;
+      cursor: pointer;
+    }
+  }
+
+  .Or {
+    padding-top: 10px;
+  }
+
+  .chef {
+    padding-top: 50px;
+
+    .ChefLink {
+      color: $logo_text;
+      cursor: pointer;
+    }
+  }
+}
+
+.SignupFooter {
+  background-color: $sign-up-text;
+  color: $delivery-fee-text;
+  font-family: Nunito;
+  text-align: center;
+  font-weight: 600;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 13px;
+  margin-top: 20px;
+
+  .copyright {
+    padding-left: 2%;
+    text-align: start;
+  }
+
+  .fa {
+    padding: 3px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 5px;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: white;
+    color: black;
+  }
+
+  .fa-twitter {
+    background: white;
+    color: black;
+  }
+
+  .fa-instagram {
+    background: black;
+    color: white;
+  }
+
+  .row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .credential {
+    padding-top: 10px;
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 16px;
+
+    .signup-input {
+      width: 80%;
+      padding-top: 2%;
+      padding-bottom: 1.5%;
+      display: block;
+      margin: auto;
+      outline: none;
+      border: none;
+      border-bottom: 1.1px solid #c0c0c0;
+    }
+  }
+
+  .signup {
+    font-family: Nunito;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+    padding-top: 30px;
+
+    .signupbtn button {
+      margin-top: 10px !important;
+      color: $nav-item;
+      background: $sign-up-background;
+      width: 80%;
+      display: block;
+      margin: auto;
+      padding: 1%;
+      border: none;
+      border-radius: 10px;
+      outline: none;
+    }
+
+   .conditions{
+     text-align: center;
+    //  padding: 0px 10px;
+   }
+  }
+
+}
+
+
+
+// .sign-in1 {
+//   padding-top: 5%;
+//   padding-bottom: 5%;
+//   font-weight: bold;
+//   font-size: 24px;
+// }
+
+// .email-input {
+//   padding: 4%;
+//   width: 100%;
+//   border-radius: 10px;
+//   border: 1px solid $login_box_border;
+// }
+
+// .email-input:hover {
+//   border: 1px solid $sign-up-background;
+// }
+
+// .pass-input {
+//   padding: 4%;
+//   width: 100%;
+//   border-radius: 10px;
+//   border: 1px solid $login_box_border;
+// }
+
+// .pass-input:hover {
+//   border : 1px solid $sign-up-background;
+// }
+
+// .sign-in {
+//   margin-top: 4%;
+//   border: none;
+//   outline: none;
+//   border-radius: 40px;
+//   background: $login_btn_bg;
+//   padding: 3.5% 10%;
+//   outline: none;
+// }
+
+// .password-login {
+//   padding-top: 5%;
+// }
+
+// .lost-p {
+//   font-size: 14px;
+//   text-decoration: underline;
+//   font-weight: 400 !important;
+//   display: inline-block;
+//   padding-top: 5%;
+//   color: $forgot_pass_text ;
+// }
+
+// .email-add {
+//   padding-top: 5%;
+// }

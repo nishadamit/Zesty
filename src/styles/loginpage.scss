@@ -1,0 +1,200 @@
+@import "./_variables";
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.login-page {
+    width: 50%;
+    margin: auto;
+}
+
+.welcome {
+    padding-top: 4%;
+    font-size: 24px;
+    text-align: center;
+}
+
+.welcome::after {
+    content: '';
+    display: block;
+    padding-bottom: 4%;
+    border-bottom: 2px solid $login_text;
+}
+
+
+.login-input {
+    width: 95%;
+    padding: 4% 0px;
+    display: block;
+    margin: auto;
+    border: none;
+    border-bottom: 1.3px solid $login_text;
+    outline: none;
+}
+
+
+.login-input::after {
+    content: '';
+    background: blue;
+    display: block;
+    width: 100px;
+    height: 100px;
+    color: red;
+}
+
+.login-btn {
+    outline: none;
+    font-weight: bold;
+    margin-top: 4% !important;
+    color: $login_btn_font;
+    background: $login_btn_bg;
+    width: 95%;
+    display: block;
+    margin: auto;
+    padding: 2.5%;
+    border: none;
+    border-radius: 10px;
+}
+
+.login-sapn {
+    display: inline-block;
+    padding: 10%;
+}
+
+.login-link1 {
+    white-space: nowrap;
+    display: inline-block;
+    padding-top: 20px;
+    color: $login_link;
+    margin-left: 70%;
+}
+
+.login-link2 {
+    white-space: nowrap;
+    padding-top: 20px;
+    color: $login_text;
+    display: block;
+    cursor: pointer;
+}
+
+.login-link3 {
+    white-space: nowrap;
+    padding-left: 8px;
+    padding-top: 19px;
+    color: $login_link;
+    display: block;
+    cursor: pointer;
+}
+
+.or {
+    font-size: 24px;
+    text-align: center;
+    color: $login_text;
+}
+
+
+.facebook-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 4% !important;
+
+    span {
+        .kep-login-facebook {
+            padding: 8px 30px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+    }
+
+}
+
+.google-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 4% !important;
+
+    .gmail-login {
+        box-shadow: 0px 2px rgba(130, 130, 130, 0.2) !important;
+        border: 2px solid rgba(130, 130, 130, 0.1) !important;
+        border-radius: 10px !important;
+        padding: 0px 18px !important;
+
+        span {
+            font-size: 14px !important;
+            font-weight: bold !important;
+        }
+    }
+}
+
+.LoginFooter {
+    background-color: $sign-up-text;
+    color: $delivery-fee-text;
+    font-family: Nunito;
+    text-align: center;
+    width: 100%;
+    font-weight: 600;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 13px;
+    margin-top: 20px;
+    // position: absolute;
+    // bottom: 0%;
+
+    .copyright {
+        padding-left: 2%;
+        text-align: start;
+    }
+
+    .fa {
+        padding: 3px;
+        font-size: 20px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 5px;
+        border-radius: 5px;
+    }
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+    .fa-facebook {
+        background: white;
+        color: black;
+    }
+
+    .fa-twitter {
+        background: white;
+        color: black;
+    }
+
+    .fa-instagram {
+        background: black;
+        color: white;
+    }
+
+    .row {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .logo{
+        cursor: pointer;
+    }
+}
+
+.desktop {
+    display: block;
+}
+
+@media only screen and (max-width: 768px) {
+    .login-page {
+        width: 75%;
+        margin: auto;
+    }
+
+}
